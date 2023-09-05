@@ -1,11 +1,11 @@
 from sklearn.datasets import load_diabetes
-import matplotlib.pyplot as plt
 
 diabetes = load_diabetes()
 print(diabetes.data.shape, diabetes.target.shape)
 print(diabetes.data[0:3])
 print(diabetes.target[:3])
 
+import matplotlib.pyplot as plt
 plt.scatter(diabetes.data[:, 2], diabetes.target)
 plt.xlabel('x')
 plt.ylabel('y')
@@ -86,3 +86,13 @@ for i in range(1, 100):
         w = w + w_rate * err
         b = b + 1 * err
 print(w, b)
+
+x_new = 0.18
+y_pred = x_new * w + b
+print(y_pred)
+
+plt.scatter(x, y)
+plt.scatter(x_new, y_pred)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.show()

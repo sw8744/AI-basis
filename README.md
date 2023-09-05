@@ -6,5 +6,7 @@
 
 ## 2. Week 2 - 선형회귀로 농어의 무게 예측하기
 > week-2.py 참조
+> 
+> Source From http://bit.ly/perch_data
 
-경사하강법 및 선형회귀 알고리즘 이용
+경사하강법 및 선형회귀 알고리즘 이용, numpy 라이브러리 사용
