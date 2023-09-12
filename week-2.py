@@ -39,3 +39,23 @@ plt.show()
 print(lr.score(train_input, train_target))
 print(lr.score(test_input, test_target))
 # 훈련 데이터에 대한 점수도 높지 않아 전체적으로 과소적합 되었다고 볼 수 있음.
+
+train_poly = np.column_stack((train_input ** 2, train_input))
+test_poly = np.column_stack((test_input ** 2, test_input))
+print(train_poly.shape, test_poly.shape)
+
+lr = LinearRegression()
+lr.fit(train_poly, train_target)
+print(lr.predict([[50 ** 2, 50]]))
+print(lr.coef_, lr.intercept_)
+
+point = np.arange(15, 50)
+plt.scatter(train_input, train_target)
+plt.plot(point, 1.01 * point ** 2 - 21.6 * point + 116.05)
+plt.scatter(50, 1574, marker='^')
+plt.xlabel('length')
+plt.ylabel('weight')
+plt.show()
+
+print(lr.score(train_poly, train_target))
+print(lr.score(test_poly, test_target))
