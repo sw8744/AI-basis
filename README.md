@@ -10,3 +10,8 @@
 > Source From http://bit.ly/perch_data
 
 선형회귀 및 다항회귀 알고리즘 이용, numpy 라이브러리 사용
+
+## 3. Week 3 - 다중회귀로 농어의 무게 예측하기
+> week-3.py 참조
+> 
+> Source From http://bit.ly/perch_data
