@@ -15,3 +15,13 @@
 > week-3.py 참조
 > 
 > Source From http://bit.ly/perch_data
+
+## 4. Week 4 - 로지스틱 회귀로 도미와 빙어 분류하기
+> week-4.py 참조
+> 
+> Source From http://bit.ly/fish_csv_data
+
+e 증명, 로지스틱 회귀 알고리즘 이용하여 도미와 빙어 분류
+
+## 5. Week 5 - k-means 알고리즘을 이용한 붓꽃 데이터 군집화
+> week-5.py 참조
