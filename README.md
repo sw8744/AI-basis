@@ -25,3 +25,8 @@ e 증명, 로지스틱 회귀 알고리즘 이용하여 도미와 빙어 분류
 
 ## 5. Week 5 - k-means 알고리즘을 이용한 붓꽃 데이터 군집화
 > week-5.py 참조
+
+## 6. Week 6 - k-means 알고리즘을 이용한 과일 데이터 분류
+> week-6.py 참조
+> 
+> Source From http://bit.ly/fruit_300_data
